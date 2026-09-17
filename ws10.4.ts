@@ -34,9 +34,7 @@ const bob = new Patient(102, "Bob", 25);
 
 doctorJohn.diagnose(alice, "หัวใจ");
 doctorSmith.diagnose(bob, "ปวดศีรษะ");
-console.log("--------------------");
 doctorJohn.prescribeMedicine(alice, "ยาลดความดัน");
 doctorSmith.prescribeMedicine(bob, "ยาคลายเครียด");
-console.log("--------------------");
 doctorJohn.calculateTreatmentCost(alice, 500, 200);
 doctorSmith.calculateTreatmentCost(bob, 300, 150);
